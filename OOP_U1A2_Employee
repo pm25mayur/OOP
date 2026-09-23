@@ -1,0 +1,27 @@
+#include<iostream>
+using namespace std;
+class employee
+{
+    public:
+	    int ID;
+	    string Employee_Name;
+    string Department_Name;
+    void display()
+    {
+        cout<<"------Employe Details------"<<"/n";
+        cout<<"Employee_ID:"<<ID<<endl;
+        cout<<"Employee_Name:"<<Employee_Name<<endl;
+        cout<<"Department_Name:"<<Department_Name<<endl;
+    }
+};
+int main()
+{
+    employee e1;
+    e1.ID=30011933;
+    e1.Employee_Name="ADOLF_HiTLER"; 
+    e1.Department_Name="DiCTETOR_of_GERMANY";
+    e1.display();
+    
+return 0;
+} 
+
