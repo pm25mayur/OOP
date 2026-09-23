@@ -1,0 +1,45 @@
+#include<iostream>
+using namespace std;
+class student
+{
+    public:
+    	int RollNo;
+    	int age;
+    	
+    	string StudentID;
+    	string bloodgroup;
+    	
+    	string name;
+    	string hobby;
+    	string department;
+  void display()
+  {
+  	cout<<"======== STUDENT DETAILS ========="<<endl;
+  	cout<<"Student Roll Number: "<<RollNo<<endl;
+  	 cout<<"Student ID: "<<StudentID<<endl;
+  	 cout<<"Student hobby: "<<hobby<<endl;
+  	 cout<<"Student Department: "<<department<<endl;
+	 cout<<"Student age: "<<age<<endl;
+	 cout<<"Student Blood Group: "<<bloodgroup<<endl;
+	 	
+  }
+};
+int main()
+{ 
+ student s1;
+ s1.RollNo = 35;
+ s1.age = 20;
+ s1.StudentID="2023soc3203";
+ s1.bloodgroup =" A positive ";
+ 
+ s1.name = "MAYUR KALYANKAR";
+ s1.hobby = "photography";
+ s1.department="School of Ai";
+ s1.display();
+ return 0;
+}
+
+
+
+
+
